@@ -12,7 +12,7 @@ particlesJS.load('particles-js', 'particles.json', function() {
 /* Otherwise just put the config content (json): */
 
 particlesJS('particles-js',
-
+  
   {
     "particles": {
       "number": {
@@ -82,11 +82,11 @@ particlesJS('particles-js',
       }
     },
     "interactivity": {
-      "detect_on": "windows",
+      "detect_on": "canvas",
       "events": {
         "onhover": {
           "enable": true,
-          "mode": "grab"
+          "mode": "repulse"
         },
         "onclick": {
           "enable": true,
