@@ -1,5 +1,25 @@
 body{
+  text-align: center;
   background-color: #333232;
+}
+
+#bgbgbg{
+  position: fixed;
+  top: 0;
+}
+
+#particles-js{
+  position: static;
+  background-color: #333232;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+
+}
+
+#invis{
+  background-color: rgba(50, 50, 50, 0.1);
+
 }
 
 nav{
@@ -54,6 +74,8 @@ footer{
 
   .container{
     width: 90%;
+    text-align: center;
+
   }
 }
 

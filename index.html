@@ -1,17 +1,27 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
   <head>
+
     <meta charset="utf-8">
-    <!-- mobile responsive  -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/index.css">
-    <script src="https://kit.fontawesome.com/11b1e77eaf.js" crossorigin="anonymous"></script>
+
     <title>Home</title>
+
+    <!-- mobile responsive  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+    <script src="https://kit.fontawesome.com/11b1e77eaf.js" crossorigin="anonymous"></script>
+
   </head>
+
   <body>
+    <div id="particles-js" style="position:fixed;width:100%;z-index:-10;"></div>
+
     <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-light">
+      <nav class="navbar navbar-expand-lg navbar-light" id="invis">
          <a class="navbar-brand" href="#">
             <img src="assets/images/just_pdf.png" width="80" height="80" alt="">
          </a>
@@ -29,14 +39,27 @@
             </div>
          </div>
       </nav>
+
       <div class="text-center malign">
         <img src="assets/images/books.png" alt="">
         <h1 class="text-white page-header" style="margin-top:10px;">Just Pdf for all you book lovers</h1>
         <p class="lead text-white">Find all your academic books in one place without any hassle</p>
         <a href="books.html"><button type="button" class="btn btn-outline-danger" style="margin-top:10px;"><i class="fas fa-file"></i> Browse</button></a>
       </div>
+
       <footer class="text-center"><p>website made with <i class="fas fa-heart" style="color:#E94242;"></i> for learners<p></footer>
+
     </div>
+     <script type="text/javascript" src="assets/json/particles.json">
+      particlesJS("particles-js",<strong>particlesjs-config.json</strong>);
+     </script>
+
+     <script type="text/javascript">\
+      /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+      particlesJS.load('particles-js', 'assets/json/particles.json', function() {
+      console.log('callback - particles.js config loaded');
+      });
+     </script>
 
 
 
@@ -44,16 +67,14 @@
 
 
 
-
-
-
-
-
-
-
+     <script type="text/javascript" src="assets/js/particles.js"></script>
+     <script type="text/javascript" src="assets/js/app.js"></script>
+     <script type="text/javascript" src="assets/js/particles.min.js"></script>
 
      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
   </body>
+
 </html>
